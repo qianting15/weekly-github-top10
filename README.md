@@ -7,10 +7,8 @@ A weekly selection of 10 popular open-source projects from GitHub Trending, with
 
 ## 最新一期 / Latest issue
 
-尚未发布。首期计划于北京时间 2026 年 9 月 27 日（周日）20:00 生成。  
-Not published yet. The first issue is planned for Sunday, September 27, 2026 at 20:00 Asia/Shanghai.
-
 <!-- LATEST_ISSUE_START -->
+首期预定 2026-09-27 20:00（北京时间）。 / First issue scheduled for 2026-09-27 at 20:00 Asia/Shanghai.
 <!-- LATEST_ISSUE_END -->
 
 ## 往期目录 / Archive
@@ -28,5 +26,5 @@ Not published yet. The first issue is planned for Sunday, September 27, 2026 at 
 
 ## 自动化说明 / Automation
 
-任务说明见 [AUTOMATION_PROMPT.md](AUTOMATION_PROMPT.md)。  
-The recurring task specification is in [AUTOMATION_PROMPT.md](AUTOMATION_PROMPT.md).
+由 [GitHub Actions 工作流](.github/workflows/weekly-top10.yml)每周日 20:00（北京时间）自动生成；实现与运行说明见 [AUTOMATION_PROMPT.md](AUTOMATION_PROMPT.md)。  
+The [GitHub Actions workflow](.github/workflows/weekly-top10.yml) runs every Sunday at 20:00 Asia/Shanghai; see [AUTOMATION_PROMPT.md](AUTOMATION_PROMPT.md) for implementation and operation notes.
