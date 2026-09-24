@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub Weekly Top 10 / GitHub 本周热门开源项目十选</title>
+  <desc id="desc">Dark blue editorial cover with colorful rising bars.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101a2d"/><stop offset="1" stop-color="#172b39"/></linearGradient>
+    <linearGradient id="bar" x2="0" y2="1"><stop stop-color="#89f0c5"/><stop offset="1" stop-color="#2dbf9d"/></linearGradient>
+  </defs>
+  <rect width="1200" height="630" rx="30" fill="url(#bg)"/>
+  <circle cx="1050" cy="120" r="220" fill="#274f58" opacity=".28"/>
+  <path d="M70 88h1060" stroke="#42616d" stroke-width="2"/>
+  <text x="70" y="64" fill="#a3c8c4" font-family="Arial,'Noto Sans SC',sans-serif" font-size="23" letter-spacing="5">OPEN SOURCE • WEEKLY CURATION</text>
+  <text x="70" y="194" fill="#f1fbf7" font-family="Arial,'Noto Sans SC',sans-serif" font-size="70" font-weight="700">GitHub Weekly</text>
+  <text x="70" y="280" fill="#89f0c5" font-family="Arial,'Noto Sans SC',sans-serif" font-size="78" font-weight="700">TOP 10</text>
+  <text x="70" y="346" fill="#d1e8e1" font-family="Arial,'Noto Sans SC',sans-serif" font-size="38">本周热门开源项目十选</text>
+  <text x="70" y="389" fill="#92b7b4" font-family="Arial,'Noto Sans SC',sans-serif" font-size="23">10 PROJECTS  /  中文 + ENGLISH  /  EVERY SUNDAY</text>
+  <path d="M70 497h1060" stroke="#42616d" stroke-width="2"/>
+  <text x="70" y="550" fill="#d1e8e1" font-family="Arial,'Noto Sans SC',sans-serif" font-size="24">发现值得关注的开源项目  ·  Discover open source worth watching</text>
+  <g fill="url(#bar)">
+    <rect x="791" y="382" width="35" height="77" rx="6"/>
+    <rect x="838" y="356" width="35" height="103" rx="6"/>
+    <rect x="885" y="336" width="35" height="123" rx="6"/>
+    <rect x="932" y="299" width="35" height="160" rx="6"/>
+    <rect x="979" y="270" width="35" height="189" rx="6"/>
+    <rect x="1026" y="226" width="35" height="233" rx="6"/>
+    <rect x="1073" y="178" width="35" height="281" rx="6"/>
+  </g>
+</svg>
