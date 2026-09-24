@@ -1,0 +1,50 @@
+name: Publish GitHub Weekly Top 10
+
+on:
+  schedule:
+    - cron: '0 20 * * 0'
+      timezone: 'Asia/Shanghai'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Preview without committing or publishing'
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-top10
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Build bilingual digest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || false }}
+        run: python scripts/build_weekly.py
+      - name: Publish files
+        if: ${{ github.event_name == 'schedule' || !inputs.dry_run }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md reports assets
+          if git diff --cached --quiet; then
+            echo 'No changes to publish.'
+            exit 0
+          fi
+          git commit -m "Publish GitHub weekly top 10 for $(TZ=Asia/Shanghai date +%F)"
+          git push
+
