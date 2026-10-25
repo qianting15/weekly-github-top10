@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="920" viewBox="0 0 1200 920" role="img" aria-labelledby="title desc">
+<title id="title">GitHub Weekly Top 10 / GitHub 本周热门开源项目十选 2026-10-25</title>
+<desc id="desc">Weekly star gains for ten repositories on GitHub Trending.</desc>
+<rect width="1200" height="920" rx="28" fill="#102333"/>
+<text x="64" y="70" fill="#62dfbd" font-size="27" font-weight="bold">GITHUB WEEKLY TOP 10 / 本周热门开源项目十选</text>
+<text x="64" y="112" fill="#adc9c7" font-size="22">2026-10-25 · Stars this week / 本周新增 Star</text>
+<path d="M64 135H1136" stroke="#426273" stroke-width="2"/>
+<g font-family="Arial, Noto Sans CJK SC, sans-serif">
+<text x="64" y="196" fill="#e8f5f1" font-size="20">01  cloudflare/security-audit-sk…</text><rect x="650" y="174" width="450" height="29" rx="7" fill="#62dfbd"/><text x="1129" y="196" fill="#e8f5f1" font-size="20" text-anchor="end">+12,680</text>
+<text x="64" y="263" fill="#e8f5f1" font-size="20">02  ruvnet/ruflo</text><rect x="650" y="241" width="115" height="29" rx="7" fill="#62dfbd"/><text x="1129" y="263" fill="#e8f5f1" font-size="20" text-anchor="end">+3,241</text>
+<text x="64" y="330" fill="#e8f5f1" font-size="20">03  anthropics/knowledge-work-pl…</text><rect x="650" y="308" width="93" height="29" rx="7" fill="#62dfbd"/><text x="1129" y="330" fill="#e8f5f1" font-size="20" text-anchor="end">+2,631</text>
+<text x="64" y="397" fill="#e8f5f1" font-size="20">04  anomalyco/opencode</text><rect x="650" y="375" width="243" height="29" rx="7" fill="#62dfbd"/><text x="1129" y="397" fill="#e8f5f1" font-size="20" text-anchor="end">+6,857</text>
+<text x="64" y="464" fill="#e8f5f1" font-size="20">05  stablyai/orca</text><rect x="650" y="442" width="349" height="29" rx="7" fill="#62dfbd"/><text x="1129" y="464" fill="#e8f5f1" font-size="20" text-anchor="end">+9,828</text>
+<text x="64" y="531" fill="#e8f5f1" font-size="20">06  heygen-com/hyperframes</text><rect x="650" y="509" width="200" height="29" rx="7" fill="#62dfbd"/><text x="1129" y="531" fill="#e8f5f1" font-size="20" text-anchor="end">+5,633</text>
+<text x="64" y="598" fill="#e8f5f1" font-size="20">07  Graphify-Labs/graphify</text><rect x="650" y="576" width="244" height="29" rx="7" fill="#62dfbd"/><text x="1129" y="598" fill="#e8f5f1" font-size="20" text-anchor="end">+6,868</text>
+<text x="64" y="665" fill="#e8f5f1" font-size="20">08  akitaonrails/ai-memory</text><rect x="650" y="643" width="126" height="29" rx="7" fill="#62dfbd"/><text x="1129" y="665" fill="#e8f5f1" font-size="20" text-anchor="end">+3,541</text>
+<text x="64" y="732" fill="#e8f5f1" font-size="20">09  Comfy-Org/ComfyUI</text><rect x="650" y="710" width="165" height="29" rx="7" fill="#62dfbd"/><text x="1129" y="732" fill="#e8f5f1" font-size="20" text-anchor="end">+4,648</text>
+<text x="64" y="799" fill="#e8f5f1" font-size="20">10  anthropics/claude-plugins-of…</text><rect x="650" y="777" width="115" height="29" rx="7" fill="#62dfbd"/><text x="1129" y="799" fill="#e8f5f1" font-size="20" text-anchor="end">+3,232</text>
+</g>
+<path d="M64 856H1136" stroke="#426273" stroke-width="2"/>
+<text x="64" y="890" fill="#9bb9b8" font-family="Arial, Noto Sans CJK SC, sans-serif" font-size="18">Source / 来源: github.com/trending?since=weekly · Snapshot at publication</text>
+</svg>

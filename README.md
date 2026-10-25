@@ -8,12 +8,13 @@ A weekly selection of 10 popular open-source projects from GitHub Trending, with
 ## 最新一期 / Latest issue
 
 <!-- LATEST_ISSUE_START -->
-首期预定 2026-09-27 20:00（北京时间）。 / First issue scheduled for 2026-09-27 at 20:00 Asia/Shanghai.
+[2026-10-25 周报 / Weekly issue](reports/2026-10-25.md)
 <!-- LATEST_ISSUE_END -->
 
 ## 往期目录 / Archive
 
 <!-- ARCHIVE_START -->
+- [2026-10-25](reports/2026-10-25.md)
 <!-- ARCHIVE_END -->
 
 ## 选取方法 / Methodology
